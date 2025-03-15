@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif, Arial;
+}
+.container{
+    height: 80vh;
+    /* width: 30vw; */
+    max-width: 400px;
+    background-color: black;
+    color: bisque;
+    border-radius: 5%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 5px solid blue; */
+    box-shadow: 10px 10px 20px black;
+}
+.header h1{
+    text-align: center;
+    font-size: 35px;
+
+}
+.main{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 4%;
+    padding-top: 3%;
+}
+.input{
+    font-size: 16px;
+    height: 18%;
+    width: 90%;
+    margin: 5% 0 0 5%;
+    background-color: bisque;
+    /* border: 2px solid blue; */
+}
+.demo{
+    text-align: center;
+    margin-top: 10%;
+}
+.button{
+    font-weight: bold;
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.3s;
+    color: bisque;
+}
+.button:hover{
+    background-color: rgb(13, 5, 124);
+}
+
+.footer{
+    /* background-color: #fff; */
+   text-align: center;
+    /*  margin-top: 5%; */
+    margin-top: 10px;
+    font-size: 14px;
+}
